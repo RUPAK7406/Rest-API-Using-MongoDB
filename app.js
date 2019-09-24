@@ -20,7 +20,7 @@ if(!db)
 else
     console.log("Db connected successfully")
 
-const apiRoutes = require("./api-routes");
+const apiRoutes = require("./routes/api-routes");
 
 app.get('/', function(req,res){
     res.send("Hello World With Node JS");
